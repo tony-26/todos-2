@@ -5,6 +5,7 @@ import TaskList from "./Components/TaskList";
 
 const App = () => {
   const [tasks, setTasks] = useState(["wash clothes", "turn on light"]);
+  const [userInput, setUserInput] = useState("");
   return (
     <div className="App">
       <h2>TODOS APP</h2>

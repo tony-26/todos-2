@@ -1,7 +1,8 @@
 const AddTask = () => {
   return (
     <div>
-      <input/>
+      <input />
+
     </div>
   );
 };
