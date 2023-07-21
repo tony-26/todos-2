@@ -12,10 +12,14 @@ const AddTask = (props) => {
         }}
         value={userInput}
       />
+      <button
+        style={{ padding: "11px" }}
+        onClick={() => {
+          setTasks([...tasks, userInput]);
+          setUserInput("");
+        }}
+      ></button>
       <h2>{userInput}</h2>
-      <button onClick={()=>{
-        
-      }}></button>
     </div>
   );
 };
